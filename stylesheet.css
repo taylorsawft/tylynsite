@@ -1,0 +1,18 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+  background-image: url("https://static.pexels.com/photos/7126/flowers-summer-bokeh.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1{
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.nav {
+  font-size: 2em;
+}
