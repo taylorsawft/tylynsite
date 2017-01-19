@@ -25,25 +25,21 @@ h3 {
   text-align: center;
 }
 
-footer .container {
-  border-radius: 1em;
-  background-color: grey;  
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
 }
-
-footer {
-  clear: both;
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
-
-footer li{
-  display: inline;
-}
-
-footer img{
-  width: 25%;
-  height: auto;
-  padding: 20px;
-}
-
-#break {
-  padding: 10px;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
 }
