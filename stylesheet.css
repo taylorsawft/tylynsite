@@ -14,7 +14,7 @@
 }
 
 h3 {
-  font-family: 'Cherry Cream Soda', cursive;
+
 }
 
 .nav {
@@ -23,4 +23,27 @@ h3 {
 
 #resume {
   text-align: center;
+}
+
+footer .container {
+  border-radius: 1em;
+  background-color: grey;  
+}
+
+footer {
+  clear: both;
+}
+
+footer li{
+  display: inline;
+}
+
+footer img{
+  width: 25%;
+  height: auto;
+  padding: 20px;
+}
+
+#break {
+  padding: 10px;
 }
